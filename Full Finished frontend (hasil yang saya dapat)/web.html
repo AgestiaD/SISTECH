@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./web.css"/>
+        <script type="text/javascript" src="web.js" ></script>
+    </head>
+    <body>
+        <div id="biodata">
+            <h1>Agestia Deanara Tori</h1>
+            <div id="detail1">
+                <div class="label">Tempat dan tanggal lahir</div>
+                <div class="container1" id="ttl">Bekasi, 11 Juni 2003</div><br>
+                <div class="label">Pekerjaan</div>
+                <div class="container1" id="pekerjaan">Mahasiswa</div><br>
+                <div class="label">Perguruan tinggi</div>
+                <div class="container1" id="perguruanT">Universitas BINUS Bandung</div><br>
+                <div class="label">Nomor telepon</div>
+                <div class="container1" id="noTelp">081218990030</div><br>
+                <div class="label">Alamat email</div>
+                <div class="container1" id="email">agestia.tori@binus.ac.id</div><br>
+                <div class="label">Alamat tempat tinggal</div>
+                <div class="container1" id="address">
+                    Springlake Apartment Summarecon, Tower Basella, Lt.7, No.9,<br>
+                    Jl. Bulevar Ahmad Yani, Bekasi Utara, Kota Bekasi, <br>Jawa Barat, 17142.
+                </div>
+            </div>
+        </div>
+
+        <div id="detail2">
+            <div class="label" style="margin-left: 25px;">Pengalaman dan Aktivitas</div>
+            <div class="container1" id="experience">
+                <ul>
+                    <li>Program <b>AIESEC Future Leaders</b></li>
+                    <li>Program <b>English Academy</b></li>
+                    <li>Anggota Tim <b>Robotik</b></li>
+                    <li>Anggota Tim Projek <b>Pemrograman</b></li>
+                </ul>
+            </div><br>
+            <div class="label" style="margin-left: 25px;">Pencapaian</div>
+            <div class="container1" id="achievement">
+                <ul>
+                    <li>Mendapatkan IP di atas 3 untuk semester awal.</li>
+                    <li>Berhasil menjadi salah satu tim terbaik saat menjalankan 
+                        program kepemimpinan AIESEC Future Leaders.
+                    </li>
+                    <li>Mendapatkan nilai hampir sempurna pada projek sistem 
+                        pendataan nilai siswa.
+                    </li>
+                </ul>
+            </div>
+            <div class="container1" id="penjelasan">Mohon maaf atas ketidaksempurnaan hasil website saya. Saya masih belum bisa memahami 
+                cara wiring frontend ke backend pada tugas ini. Setelah menonton link Youtube yang diberikan dan membaca konten 
+                mengenai backend di Google, saya berhasil menginstall Axios untuk file JSON, tetapi saya kesulitan untuk memulai 
+                server websitenya. Di saat saya memasukkan "npm start", tampilan di terminal menunjukkan error 'Missing script: "start"'. 
+                Setelah saya mencari hal tersebut di Google, banyak yang mengatakan bahwa saya harus menambahkan Start di bawah Scripts. Sampai 
+                saat ini saya belum bisa menyelesaikan problem tersebut. 
+                <br><br>Maka dari itu, mohon maaf saya tidak bisa men-deploy dan hanya bisa mengumpulkan hasil tampilan websitenya saja
+                (web.html, web.css, web.js).</div>
+        </div>
+
+        <button id="button1" onclick="replace()" >Click for more!<br><span class="glyphicon glyphicon-chevron-down"></span></button>
+        <button id="button2" onclick="replaceBack()" ><span class="glyphicon glyphicon-chevron-up"></span></button>
+        
+        <div id="blog"> 
+            <button type="submit" id="postButton">POST BLOG</button>
+            <textarea id="blogCreate" name="blogNew" value="blogNew" placeholder="Write your blog.."></textarea>
+            <div id="blogHistory">
+                <div class="posted" id="cth1"> . . . . . . . . . . . . . . . .
+                    <br><br><button type="submit" id="blogLike" value="like"><span class="glyphicon glyphicon-thumbs-up"></span></button>
+                </div>
+                <div class="posted" id="cth2"> . . . . . . . . . . . . . . . .
+                    <br><br><button type="submit" id="blogLike" value="like"><span class="glyphicon glyphicon-thumbs-up"></span></button>
+                </div>
+                <div class="posted" id="cth3"> . . . . . . . . . . . . . . . .
+                    <br><br><button type="submit" id="blogLike" value="like"><span class="glyphicon glyphicon-thumbs-up"></span></button>
+                </div>
+                <div class="posted" id="cth4"> . . . . . . . . . . . . . . . .
+                    <br><br><button type="submit" id="blogLike" value="like"><span class="glyphicon glyphicon-thumbs-up"></span></button>
+                </div>
+                <div class="posted" id="cth5"> . . . . . . . . . . . . . . . .
+                    <br><br><button type="submit" id="blogLike" value="like"><span class="glyphicon glyphicon-thumbs-up"></span></button>
+                </div>
+                <div class="posted" id="cth6"> . . . . . . . . . . . . . . . .
+                    <br><br><button type="submit" id="blogLike" value="like"><span class="glyphicon glyphicon-thumbs-up"></span></button>
+                </div>
+                <div class="posted" id="cth7"> . . . . . . . . . . . . . . . .
+                    <br><br><button type="submit" id="blogLike" value="like"><span class="glyphicon glyphicon-thumbs-up"></span></button>
+                </div>
+
+            </div>
+            
+            
+        </div>
+
+        <p id="creds">Image by rawpixel.com</p>
+
+
+    </body>
+</html>
